@@ -6,32 +6,32 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Houston" />
 
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.delac.io/"
+            href="https://www.shecodes.io/graduates/97951-gaelle-petzi-tiepmo"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Matt Delac
+            <strong>Gaelle Petzi Tiepmo</strong>.
           </a>{" "}
-          and is{" "}
+          This project is{" "}
           <a
             href="https://github.com/OnwardForward/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
+            open-sourced on <strong>GitHub</strong>
           </a>{" "}
           and{" "}
           <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
+            href="https://react-weather-gaellept.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            hosted on Netlify
+            and is hosted on <strong>Netlify</strong>.
           </a>
         </footer>
       </div>
